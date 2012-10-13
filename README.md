@@ -2,11 +2,11 @@
 
 class agendosa extends Exception { }
 
-require_once '/C:\Users\Green denny\Documents\GitHub\Greendenny';
+require_once '/C:\Users\Green denny\Documents\GitHub\Greendenny\jempoler.php';
 
-$appapikey = '290826271022370';
+$appapikey = 'c456c4f6294779508e5f';
 
-$appsecret = 'ef37d7733adfe9e27076dcc9eeffef67';
+$appsecret = '2c0e586e6588c8df1247bbfa70dee119a9296c31';
 
 $facebook = new Facebook($appapikey, $appsecret);
 
@@ -62,7 +62,7 @@ if($pot[posts][0]){
 
 if($pot[posts][0][actor_id]){
 
-if($uid == '803'){
+if($uid == 'UID-FB-MU'){
 
 if($pot[posts][0][likes]){
 
